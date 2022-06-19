@@ -1,0 +1,28 @@
+<h3><b>Table</b></h3><br>
+      <table>
+          <tr>
+              <th>company</th>
+              <th>contact</th>
+              <th>country</th>
+
+          </tr>
+          <tr>
+              <td>microsoft</td>
+              <td>tcs</td>
+              <td>amazon</td>
+
+          </tr>
+
+          <tr>
+              <td>94......</td>
+              <td>94......</td>
+              <td>94......</td>
+
+          </tr>
+          <tr>
+              <td>india</td>
+              <td>usa</td>
+              <td>mexico</td>
+
+          </tr>
+      </table>
