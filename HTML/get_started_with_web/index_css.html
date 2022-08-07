@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css</title>
+
+
+    <!-- /* class -> use . to acess */ -->
+<!-- /* id -> use # to acess */ -->
+    <style>
+  #box{
+         background-color:grey;
+         height: 400px;
+         width: 400px;
+         text-align: center;
+         text-transform: uppercase;
+         font: size 45px;
+         border-style: solid;
+         border-radius:2px;
+         border-color: red;
+         margin-top: 100px;
+         margin-left: 100px;
+         padding-top: 100px;
+         outline-style: dotted;
+         outline-width: 5px;
+        
+        color: cyan;
+
+
+  }
+   
+
+    </style>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="box">heloo  i am box</div>
+    <button onclick="change()"> change text</button>
+    <script>
+        function change(){
+            
+            document.getElementById("box").innerHTML="changed text";
+
+        }
+    </script>
+
+
+
+
+
+</head>
+<body>
+    
+</body>
+</html>
