@@ -20,5 +20,5 @@ console.log(d);
 //selecting using query selector
 
 sel = document.querySelector(".container");
-console.log(sel)
+console.log(sel);
 
