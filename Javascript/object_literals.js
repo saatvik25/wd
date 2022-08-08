@@ -8,3 +8,8 @@ let car = {
     }
 }
 console.log(car);
+// The syntax for accessing the property of an object is:
+
+console.log(car.run1);
+console.log(car.topspeed);
+console.log(car.name);
