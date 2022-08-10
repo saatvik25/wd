@@ -16,4 +16,4 @@ let car;
 
 car = 'BMW';
 console.log(car);
-const car;
+const car
