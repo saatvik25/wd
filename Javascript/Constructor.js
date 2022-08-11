@@ -62,4 +62,4 @@ Person.prototype.name = function(){
 
   console.log(obj);
   console.log(obj.state);
-  console.log(obj.name)
+  console.log(obj.name);
