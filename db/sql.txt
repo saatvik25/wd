@@ -15,4 +15,4 @@ What Can SQL do?
 * SQL can create new tables in a database
 * SQL can create stored procedures in a database
 * SQL can create views in a database
-* SQL can set permissions on tables, procedures, and view
+* SQL can set permissions on tables, procedures, and views
