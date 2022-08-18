@@ -5,6 +5,3 @@ SELECT * FROM table name
 ORDER BY column name;
 
 
-ex 
-SELECT * FROM Customers
-ORDER BY Country;
