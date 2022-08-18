@@ -14,3 +14,7 @@ ORDER BY Country;
 ORDER BY Several Columns 
 SELECT * FROM table name
 ORDER BY column name 1 , column name 2;
+
+ex 
+ SELECT * FROM Customers
+ORDER BY Country, CustomerName;
