@@ -1,0 +1,10 @@
+he ORDER BY keyword is used to sort the result-set in ascending or descending order.
+
+
+SELECT * FROM table name
+ORDER BY column name;
+
+
+ex 
+SELECT * FROM Customers
+ORDER BY Country;
