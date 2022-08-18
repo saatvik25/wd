@@ -8,3 +8,7 @@ ORDER BY column name;
 ex
 SELECT * FROM Customers
 ORDER BY Country;
+
+
+
+ORDER BY Several Columns 
