@@ -4,3 +4,9 @@ CREATE TABLE test(
   lname VARCHAR
   age INT
   );
+
+
+//insert
+INSERT INTO person (id,name,lname, price)
+VALUES('63','S','s' , '1000' );
+
