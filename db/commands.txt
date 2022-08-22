@@ -18,3 +18,11 @@ SELECT * FROM person
 
 //delete
 DELETE FROM person where id = '62';
+
+
+
+//update
+
+UPDATE person
+SET name = 'aa' , lname = 'bb'
+where id = '62';
