@@ -10,5 +10,7 @@ CREATE TABLE test(
 INSERT INTO person (id,name,lname, price)
 VALUES('63','S','s' , '1000' );
 
+INSERT INTO person VALUES('62', 'a','b','12')
+
 //select
 SELECT * FROM person
