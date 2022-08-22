@@ -1,0 +1,6 @@
+CREATE TABLE test(
+  id INT
+  name VARCHAR
+  lname VARCHAR
+  age INT
+  );
