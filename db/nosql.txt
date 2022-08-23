@@ -38,7 +38,7 @@ data models-> no predefined schema ex when you are workig with relational databa
 
    key-values stores  -> redis,couchbase server
 
-   graph databases -> everydatabas looked as node and each has relationship with other node called edg
+   graph databases -> everydatabas looked as node and each has relationship with other node called edge
 
 
 
