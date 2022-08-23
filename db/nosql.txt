@@ -1,0 +1,44 @@
+//nosql 
+ stands for NOT ONLY SQL 
+
+ Refer to any non-relational database
+
+ NoSQL databases are databases that store data in a format other
+ than relational tables.
+
+
+// advantage of nosql over rdbms
+handles big data -> handle large data
+
+data models-> no predefined schema ex when you are workig with relational database you have to define datatype etc
+
+ data structure -> handles unstructured data like you dont have to define table etc
+
+ scaling - scale out / horizontal scalling
+
+
+
+ //advantage of rdbms over nosql databases 
+
+  better for relational data
+
+  Normilization -> which organizes data in a way thay eliminates redundency so all data is placed at one place
+ 
+  well known language
+   
+   acid compliance 
+
+
+   //Types of Nosql databases
+
+   document databases -> mongodb,couchDB
+
+   column databases means reading and writing in columns only.
+    ex - apache cassandra
+
+   key-values stores  -> redis,couchbase server
+
+   graph databases -> everydatabas looked as node and each has relationship with other node called edge
+
+
+
