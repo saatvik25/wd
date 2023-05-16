@@ -1,0 +1,22 @@
+ROLLBACK
+This command is used to restore the database to its original state since the last command that was committed.
+The syntax of the Rollback command is as below:
+
+ update employee set name = 'a' where id = 3;
+ rollback;
+
+
+Also, the ROLLBACK command is used along with savepoint command to leap to a save point in a transaction.
+The syntax for the same is as below:
+
+ ROLLBACK TO <savepoint_name>;
+  SAVEPOINT A;
+  
+  
+  
+update employee set name = 'cccc' where id = 3;
+commit;
+update employee set name = 'a' where id = 3;
+savepoint A;
+insert into employee values ('d',4,'dd');
+ROLLBACK TO A;
