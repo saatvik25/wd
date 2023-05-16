@@ -1,0 +1,8 @@
+//Commit
+COMMIT command in SQL is used to save all the transaction-related changes permanently to the disk. 
+Whenever DDL commands such as INSERT, UPDATE and DELETE are used, 
+the changes made by these commands are permanent only after closing the current session.
+
+update employee set name = 'cccc' where id = 3;
+
+commit;
