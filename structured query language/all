@@ -1,0 +1,43 @@
+create table employee(
+name varchar(20),
+id int(10) ,
+lastname varchar(20)
+);
+select * from employee;
+
+-- begin transaction
+-- go
+-- insert into emloyee values('d',4,'dd');
+-- commit transaction
+
+
+INSERT into employee values('a',1,'aa');
+INSERT into employee values('b',2,'bb');
+INSERT into employee values('c',3,'cc');
+
+alter table employee add email varchar(10);
+alter table employee drop column email;
+alter table employee rename column lastname to lname;
+alter table employee add primary key (id);
+
+UPDATE employee set lname = 'bbb' where id = 1;
+update employee set lname = 'aaaa', name = 'aa' where id = 1;
+
+delete from employee where name = 'aa';
+
+
+
+update employee set name = 'cccc' where id = 3;
+commit;
+update employee set name = 'a' where id = 3;
+savepoint A;
+insert into employee values ('d',4,'dd');
+ROLLBACK TO A;
+
+
+
+select ascii('t');
+select 'saatvik'|| ' ' || 'srivastava' from dual;
+select 'saat'|| ' ' || 'vik' from dual;
+
+select left("saatvik.org",4);
