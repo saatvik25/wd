@@ -1,0 +1,22 @@
+Aggregation Function:- SQL aggregation function is used to perform the calculations on multiple rows of a single column of a table.
+It returns a single value.It is also used to summarize the data.
+
+The MIN() function returns the smallest value of the selected column.
+
+The MAX() function returns the largest value of the selected column.
+
+SELECT MIN(Price) AS SmallestPrice
+FROM Products;
+
+
+SELECT MAX(Price) AS LargestPrice
+FROM Products; 
+
+
+The SQL COUNT(), AVG() and SUM() Functions
+
+select count(price)
+from product;
+
+select avg(prices)
+feom product;
