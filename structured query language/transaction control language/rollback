@@ -1,3 +1,4 @@
+https://www.educba.com/transaction-control-language/
 ROLLBACK
 This command is used to restore the database to its original state since the last command that was committed.
 The syntax of the Rollback command is as below:
