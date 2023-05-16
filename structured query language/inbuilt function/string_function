@@ -1,0 +1,12 @@
+String Function-They are used to perform an operation on input string and return an output string.
+
+ASCII(): This function is used to find the ASCII value of a character.
+select ascii('t');
+
+FORMAT(): This function is used to display a number in the given format.
+format("0.90","percent");
+
+INSERT(): This function is used to insert the data into a database
+
+LEFT(): This function is used to SELECT a sub string from the left of given size or characters.
+select left("saatvik.org",4);
