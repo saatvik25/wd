@@ -1,0 +1,9 @@
+Date Function:- The following table has a list of all the important Date and Time related functions available through SQL.
+There are various other functions supported by your RDBMS.
+
+
+select current_date;
+select current_timestamp;
+select month("2022-10-20 09:45:21") as month;
+select monthname("2022-10-20 09:45:21") as month;
+select dayname("2022-10-20 09:45:21");
