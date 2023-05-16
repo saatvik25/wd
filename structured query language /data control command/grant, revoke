@@ -1,9 +1,0 @@
-//we give permission to user to access our database
-
-grant select,update on employee to saatvik
-
-//means give permission saatvik to update and select on table employee
-
-REVOKE SELECT, UPDATE ON EMPLOTEE FROM SATVIK
-
-//take all permissio from saatvik
