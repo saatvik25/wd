@@ -1,0 +1,5 @@
+he DROP TABLE statement is used to drop an existing table in a database.
+
+drop table_name
+ex 
+ drop employee
