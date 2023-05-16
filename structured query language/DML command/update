@@ -1,0 +1,8 @@
+//The UPDATE statement is used to modify the existing records in a table.
+
+UPDATE employee set lname = 'bbb' where id = 1;
+
+
+UPDATE Multiple Records
+update employee set lname = 'aaaa', name = 'aa' where id = 1;
+
