@@ -1,0 +1,2 @@
+//to make primary key update
+alter table employee add primary key (id);
