@@ -3,4 +3,5 @@ The SQL DELETE Statement
 The DELETE statement is used to delete existing records in a table.
 
 
+
 DELETE FROM Customers WHERE CustomerName='a';
