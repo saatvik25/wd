@@ -19,5 +19,6 @@ update employee set name = 'cccc' where id = 3;
 commit;
 update employee set name = 'a' where id = 3;
 savepoint A;
+
 insert into employee values ('d',4,'dd');
 ROLLBACK TO A;
